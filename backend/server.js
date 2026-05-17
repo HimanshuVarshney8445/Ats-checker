@@ -12,7 +12,7 @@ import atsRoute from './routes/atsRoutes.js';
 import authRoutes from './routes/authRoute.js';
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Vite default port
+    origin: 'https://ats-checker-gules-one.vercel.app', // Vite default port
     credentials: true
 }));
 app.use(express.json());
