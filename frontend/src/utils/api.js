@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://ats-checker-1-as0g.onrender.com/api',
   withCredentials: true
 });
 
